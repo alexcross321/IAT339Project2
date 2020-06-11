@@ -38,7 +38,7 @@ p {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  
+  font-size:18px;
 }
 
 input[type=text]{
@@ -46,9 +46,9 @@ input[type=text]{
   padding: 10px 15px;
   border: 2px;
   border-radius: 4px; 
-  color: white; 
-  background-color:#152852;
-  font-size:20px;
+  color: black; 
+  background-color:#FFE373;
+  
 }
 
 input[type=reset]{
@@ -56,6 +56,7 @@ input[type=reset]{
   padding: 10px 15px;
   background:#FD5E53;
   color:black;
+  font-size: 18px;
 }
 
 input[type=reset]:hover{
@@ -67,6 +68,7 @@ input[type=submit]{
   padding: 10px 15px;
   background:#FD5E53;
   color:black;
+  font-size: 18px;
 }
 
 input[type=submit]:hover{
