@@ -200,6 +200,7 @@ nav:hover{
 
 .subnav:hover .subnav-content{
   display: block;
+  position: fixed;
 }
 
 .checkout{
