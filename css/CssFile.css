@@ -145,6 +145,7 @@ nav:hover{
 .navbar{
   overflow:hidden;
   background-color:#08183A;
+  
 }
 
 .navbar a{
@@ -169,7 +170,7 @@ nav:hover{
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
-  margin 0;
+  
 }
 
 .navbar a:hover, .subnav:hover .subnavbtn{
@@ -180,7 +181,7 @@ nav:hover{
 .subnav-content{
   display: none;
   position: absolute;
-  left:2;to 
+  left:2;
   background-color:#FD5E53;
   width:100%;
   z-index: 1;
@@ -189,7 +190,7 @@ nav:hover{
 
 .subnav-content a{
   float:left;
-  color:black;
+  color:blue;
   text-decoration:none;
 }
 
