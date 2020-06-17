@@ -8,9 +8,10 @@ h1 {
 
 /*taken from Erika's P01 Code*/
 .mainnav {
+
 	overflow: hidden;
 	background-color: grey;
-	position: fixed;
+	position:fixed;
 	top: 0;
 	right: 0;
 	left: 0;
@@ -19,8 +20,10 @@ h1 {
 .mainnav a {
 	float: left;
 	text-decoration: none;
-	padding: .75em;
+	text-align:center;
+	padding:  14px 16px;
 	color: white;
+	font-size:16px;
 }
 
 .subnav {
@@ -30,26 +33,42 @@ h1 {
 
 .subnav .sub {
 	font-family: inherit;
-	font-size: inherit;
+	font-size: 16px;
 	border: none;
 	outline: none;
-	background-color: grey;
+	padding:14px 16px;
+	background-color: inherit;
 	color: white;
+	
+}
+.mainnav a:hover, .subnav:hover .sub{
+  background-color:#FD5E53;
 
 }
 
 .subnav-content {
 	display: none;
 	position: absolute;
+
+	left:2;
+	width:100%;
 	background-color: white;
+	z-index: 1;
+	
 }
 
 .subnav-content a{
 	float: left;
 	text-decoration: none;
-	color: grey;
+	color: blue;
 }
+.subnav-content a:hover{
+	background-color: #FFE373;
+  	color: black;
+}
+
 
 .subnav:hover .subnav-content {
 	display: block;
+	position:fixed;
 }
