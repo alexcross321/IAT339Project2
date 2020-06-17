@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	margin-top: 2em;
+}
+
+/*taken from Erika's P01 Code*/
+.mainnav {
+	overflow: hidden;
+	background-color: grey;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+
+.mainnav a {
+	float: left;
+	text-decoration: none;
+	padding: .75em;
+	color: white;
+}
+
+.subnav {
+	float: left;
+	overflow: hidden;
+}
+
+.subnav .sub {
+	font-family: inherit;
+	font-size: inherit;
+	border: none;
+	outline: none;
+	background-color: grey;
+	color: white;
+
+}
+
+.subnav-content {
+	display: none;
+	position: absolute;
+	background-color: white;
+}
+
+.subnav-content a{
+	float: left;
+	text-decoration: none;
+	color: grey;
+}
+
+.subnav:hover .subnav-content {
+	display: block;
+}
