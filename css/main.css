@@ -2,15 +2,69 @@
 	box-sizing: border-box;
 }
 
+body{
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+p {
+  font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+  color: black;
+
+}
+
 h1 {
-	margin-top: 2em;
+	margin-top: 3em;
+	text-transform: uppercase;
+  font-size: 4em;
+  color: #152852;
+}
+
+h2{
+	margin-top: 3em;
+	font-size: 2.5em;
+  	color: #4B3D60;
+  	text-decoration: underline;
+}
+
+h3{
+  font-size: 1.625em;
+  color:#4B3D60;
+}
+
+
+.grid{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  margin: 5em;
+}
+
+.grid .box{
+  
+  flex:1 1 auto;
+  max-width:100%;
+  background: #FFE373;
+  padding:1.25em;
+  margin:0.625em;
+}
+
+.button {
+  background-color: #FD5E53;
+  border:none;
+  color:white;
+  padding: 0.625em 0.9375em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size:1.125em;
 }
 
 /*taken from Erika's P01 Code*/
 .mainnav {
 
 	overflow: hidden;
-	background-color: grey;
+	background-color: #08183A;
 	position:fixed;
 	top: 0;
 	right: 0;
@@ -21,9 +75,9 @@ h1 {
 	float: left;
 	text-decoration: none;
 	text-align:center;
-	padding:  14px 16px;
+	padding:  0.875em 5.5em;
 	color: white;
-	font-size:16px;
+	font-size:1.5em;
 }
 
 .subnav {
@@ -33,10 +87,10 @@ h1 {
 
 .subnav .sub {
 	font-family: inherit;
-	font-size: 16px;
+	font-size: 1.5em;
 	border: none;
 	outline: none;
-	padding:14px 16px;
+	padding: 0.875em 5.5em;
 	background-color: inherit;
 	color: white;
 	
@@ -52,7 +106,7 @@ h1 {
 
 	left:2;
 	width:100%;
-	background-color: white;
+	background-color: #FD5E53;
 	z-index: 1;
 	
 }
@@ -60,7 +114,7 @@ h1 {
 .subnav-content a{
 	float: left;
 	text-decoration: none;
-	color: blue;
+	color: white;
 }
 .subnav-content a:hover{
 	background-color: #FFE373;
