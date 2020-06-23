@@ -64,7 +64,11 @@ h3{
 .mainnav {
 
 	overflow: hidden;
+<<<<<<< HEAD
 	background-color: #08183A;
+=======
+	background-color: grey;
+>>>>>>> master
 	position:fixed;
 	top: 0;
 	right: 0;
@@ -75,9 +79,15 @@ h3{
 	float: left;
 	text-decoration: none;
 	text-align:center;
+<<<<<<< HEAD
 	padding:  0.5em 5.5em;
 	color: white;
 	font-size:1.5em;
+=======
+	padding:  14px 16px;
+	color: white;
+	font-size:16px;
+>>>>>>> master
 }
 
 .subnav {
@@ -87,10 +97,17 @@ h3{
 
 .subnav .sub {
 	font-family: inherit;
+<<<<<<< HEAD
 	font-size: 1.5em;
 	border: none;
 	outline: none;
 	padding: 0.5em 5.5em;
+=======
+	font-size: 16px;
+	border: none;
+	outline: none;
+	padding:14px 16px;
+>>>>>>> master
 	background-color: inherit;
 	color: white;
 	
@@ -106,7 +123,11 @@ h3{
 
 	left:2;
 	width:100%;
+<<<<<<< HEAD
 	background-color: #FD5E53;
+=======
+	background-color: white;
+>>>>>>> master
 	z-index: 1;
 	
 }
@@ -114,12 +135,21 @@ h3{
 .subnav-content a{
 	float: left;
 	text-decoration: none;
+<<<<<<< HEAD
 	color: white;
+=======
+	color: blue;
+}
+.subnav-content a:hover{
+	background-color: #FFE373;
+  	color: black;
+>>>>>>> master
 }
 .subnav-content a:hover{
 	background-color: #FFE373;
   	color: black;
 }
+
 
 
 .subnav:hover .subnav-content {
