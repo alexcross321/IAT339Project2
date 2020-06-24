@@ -2,6 +2,15 @@
 	box-sizing: border-box;
 }
 
+/*
+Colors:
+#37AFA9
+#2D8E87
+#0C695D
+#E0F2F2
+#152329;
+*/
+
 body{
   font-family: Arial, Helvetica, sans-serif;
 
@@ -17,19 +26,19 @@ h1 {
 	margin-top: 3em;
 	text-transform: uppercase;
   font-size: 4em;
-  color: #152852;
+  color: #152329;
 }
 
 h2{
 	margin-top: 4em;
 	font-size: 2.5em;
-  	color: #4B3D60;
+  	color: #152329;
   	text-decoration: underline;
 }
 
 h3{
   font-size: 1.625em;
-  color:#4B3D60;
+  color:#152329;
 }
 
 
@@ -44,9 +53,10 @@ h3{
   
   flex:1 1 auto;
   max-width:100%;
-  background: #FFE373;
+  background: #0C695D;
   padding:1.25em;
   margin:0.625em;
+  color: white;
 }
 
 .button {
@@ -65,7 +75,7 @@ h3{
 
 	overflow: hidden;
 
-	background-color: #08183A;
+	background-color: #37AFA9;
 
 	position:fixed;
 	top: 0;
@@ -100,7 +110,7 @@ h3{
 	
 }
 .mainnav a:hover, .subnav:hover .sub{
-  background-color:#FD5E53;
+  background-color:#2D8E87;
 
 }
 
@@ -111,7 +121,7 @@ h3{
 	left:2;
 	width:100%;
 
-	background-color: #FD5E53;
+	background-color: #2D8E87;
 	z-index: 1;
 	
 }
@@ -124,7 +134,7 @@ h3{
 }
 
 .subnav-content a:hover{
-	background-color: #FFE373;
+	background-color: #E0F2F2;
   	color: black;
 }
 
