@@ -187,15 +187,21 @@ figure {
 	height: auto;
 }
 
-.grid2 {
-	display: flex;
-	margin: 2em;
+@media (min-width: 70em) {
+
+	.grid2 {
+		display: flex;
+		margin: 2em;
+	}
+
+	.grid3{
+		display: flex;
+		margin-top: 10em;
+	}
 }
 
 .grid3{
-	display: flex;
 	background-color: #2D8E87;
-	margin-top: 10em;
 	border-radius: 1em;
 }
 
