@@ -38,6 +38,7 @@ h2{
 h3{
   font-size: 1.625em;
   color:#152329;
+  margin-left: 1em;
 }
 
 
@@ -174,4 +175,36 @@ h3{
 	border-right: 0;
 	border-left: 0;
 	border-color: #37AFA9;
+}
+
+figure {
+	text-align: center;
+	padding: 0;
+}
+
+#picofme {
+	width: 30em;
+	height: auto;
+}
+
+.grid2 {
+	display: flex;
+	margin: 2em;
+}
+
+.grid3{
+	display: flex;
+	background-color: #2D8E87;
+	margin-top: 10em;
+	border-radius: 1em;
+}
+
+.sm {
+	width: 8em;
+	height: auto;
+	border-radius: 1em;
+}
+
+#sm {
+	color: white;
 }
