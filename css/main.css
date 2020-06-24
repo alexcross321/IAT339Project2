@@ -24,17 +24,12 @@ p {
 
 h1 {
 	text-transform: uppercase;
-<<<<<<< HEAD
   	font-size: 4em;
   	color: #152329;
-=======
-  font-size: 4em;
-  color: #152329;
->>>>>>> master
 }
 
 h2{
-	margin-top: 4em;
+	margin-top: 2em;
 	font-size: 2.5em;
   	color: #152329;
   	text-decoration: underline;
@@ -43,6 +38,7 @@ h2{
 h3{
   font-size: 1.625em;
   color:#152329;
+  margin-left: 1em;
 }
 
 
@@ -51,6 +47,7 @@ h3{
   flex-direction:row;
   flex-wrap:wrap;
   margin: 5em;
+  margin-top: 1em;
 }
 
 .grid .box{
@@ -61,10 +58,7 @@ h3{
   padding:1.25em;
   margin:0.625em;
   color: white;
-<<<<<<< HEAD
   border-radius: 1em;
-=======
->>>>>>> master
 }
 
 .button {
@@ -85,11 +79,7 @@ h3{
 
 	background-color: #37AFA9;
 
-<<<<<<< HEAD
 	/*position:fixed;
-=======
-	position:fixed;
->>>>>>> master
 	top: 0;
 	right: 0;
 	left: 0;*/
@@ -102,12 +92,8 @@ h3{
 	text-align:center;
 	padding:  0.3em 5.3em;
 	color: white;
-	font-size:1.5em;
-<<<<<<< HEAD
+	font-size:1em;
 	padding-top: 0.5em; 
-=======
-
->>>>>>> master
 }
 
 .subnav {
@@ -117,7 +103,7 @@ h3{
 
 .subnav .sub {
 	font-family: inherit;
-	font-size: 1.5em;
+	font-size: 1em;
 	border: none;
 	outline: none;
 	padding: 0.5em 5.0em;
@@ -136,10 +122,6 @@ h3{
 	position: absolute;
 
 	left:2;
-<<<<<<< HEAD
-=======
-	width:100%;
->>>>>>> master
 
 	background-color: #2D8E87;
 	z-index: 1;
@@ -172,7 +154,7 @@ h3{
 #bnnr {
 	width: 100%;
 	height: auto;
-	margin-top: 3em;
+	margin-top: 2em;
 	z-index: 0;
 }
 
@@ -180,4 +162,55 @@ h3{
 	position: absolute;
 	bottom: 0;
 	z-index: 1;
+	color: white;
+	background-color: rgba(0,0,0,0.4);
+	margin-bottom: 0.05em;
+	padding-right: 0.1em;
+}
+
+.cr {
+	border-style: solid;
+	padding: 1em;
+	border-bottom: 0;
+	border-right: 0;
+	border-left: 0;
+	border-color: #37AFA9;
+}
+
+figure {
+	text-align: center;
+	padding: 0;
+}
+
+#picofme {
+	width: 30em;
+	height: auto;
+}
+
+@media (min-width: 70em) {
+
+	.grid2 {
+		display: flex;
+		margin: 2em;
+	}
+
+	.grid3{
+		display: flex;
+		margin-top: 10em;
+	}
+}
+
+.grid3{
+	background-color: #2D8E87;
+	border-radius: 1em;
+}
+
+.sm {
+	width: 8em;
+	height: auto;
+	border-radius: 1em;
+}
+
+#sm {
+	color: white;
 }
