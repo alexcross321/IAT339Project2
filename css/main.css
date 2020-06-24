@@ -2,6 +2,15 @@
 	box-sizing: border-box;
 }
 
+/*
+Colors:
+#37AFA9
+#2D8E87
+#0C695D
+#E0F2F2
+#152329;
+*/
+
 body{
   font-family: Arial, Helvetica, sans-serif;
 
@@ -17,19 +26,19 @@ h1 {
 	margin-top: 3em;
 	text-transform: uppercase;
   font-size: 4em;
-  color: #152852;
+  color: #152329;
 }
 
 h2{
-	margin-top: 3em;
+	margin-top: 4em;
 	font-size: 2.5em;
-  	color: #4B3D60;
+  	color: #152329;
   	text-decoration: underline;
 }
 
 h3{
   font-size: 1.625em;
-  color:#4B3D60;
+  color:#152329;
 }
 
 
@@ -44,9 +53,11 @@ h3{
   
   flex:1 1 auto;
   max-width:100%;
-  background: #FFE373;
+  background: #0C695D;
   padding:1.25em;
   margin:0.625em;
+  color: white;
+  border-radius: 1em;
 }
 
 .button {
@@ -64,20 +75,24 @@ h3{
 .mainnav {
 
 	overflow: hidden;
-	background-color: #08183A;
+
+	background-color: #37AFA9;
+
 	position:fixed;
 	top: 0;
 	right: 0;
 	left: 0;
+	
 }
 
 .mainnav a {
 	float: left;
 	text-decoration: none;
 	text-align:center;
-	padding:  0.5em 5.5em;
+	padding:  0.3em 5.3em;
 	color: white;
 	font-size:1.5em;
+
 }
 
 .subnav {
@@ -90,13 +105,14 @@ h3{
 	font-size: 1.5em;
 	border: none;
 	outline: none;
-	padding: 0.5em 5.5em;
+	padding: 0.5em 5.0em;
+
 	background-color: inherit;
 	color: white;
 	
 }
 .mainnav a:hover, .subnav:hover .sub{
-  background-color:#FD5E53;
+  background-color:#2D8E87;
 
 }
 
@@ -106,7 +122,8 @@ h3{
 
 	left:2;
 	width:100%;
-	background-color: #FD5E53;
+
+	background-color: #2D8E87;
 	z-index: 1;
 	
 }
@@ -115,16 +132,17 @@ h3{
 	float: left;
 	text-decoration: none;
 	color: white;
+
 }
+
 .subnav-content a:hover{
-	background-color: #FFE373;
+	background-color: #E0F2F2;
   	color: black;
 }
+
 
 
 .subnav:hover .subnav-content {
 	display: block;
 	position:fixed;
 }
-
-/*OwO What's dis?*/
