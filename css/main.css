@@ -42,6 +42,10 @@ h3{
 	color:#152329;
 }
 
+ol{
+	list-style-type: upper-roman;
+}
+
 .mrch {
 	width: 12em;
 	height: auto;
