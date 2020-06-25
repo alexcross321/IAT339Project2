@@ -200,6 +200,11 @@ figure {
 	}
 }
 
+figcaption {
+	font-size: 0.8em;
+	font-style: italic;
+}
+
 .grid3{
 	background-color: #2D8E87;
 	border-radius: 1em;
@@ -213,4 +218,9 @@ figure {
 
 #sm {
 	color: white;
+}
+
+.house {
+	width: 2em;
+	height: auto;
 }
