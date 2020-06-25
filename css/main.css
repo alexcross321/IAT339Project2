@@ -12,64 +12,64 @@ Colors:
 */
 
 body{
-  font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 
 }
 
 p {
-  font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
-  color: black;
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+	color: black;
 
 }
 
 h1 {
 	text-transform: uppercase;
-  	font-size: 4em;
-  	color: #152329;
+	font-size: 4em;
+	color: #152329;
 }
 
 h2{
 	margin-top: 2em;
 	font-size: 2.5em;
-  	color: #152329;
-  	text-decoration: underline;
+	color: #152329;
+	text-decoration: underline;
 }
 
 h3{
-  font-size: 1.625em;
-  color:#152329;
-  margin-left: 1em;
+	font-size: 1.625em;
+	color:#152329;
+	margin-left: 1em;
 }
 
 
 .grid{
-  display:flex;
-  flex-direction:row;
-  flex-wrap:wrap;
-  margin: 5em;
-  margin-top: 1em;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	margin: 5em;
+	margin-top: 1em;
 }
 
 .grid .box{
-  
-  flex:1 1 auto;
-  max-width:100%;
-  background: #0C695D;
-  padding:1.25em;
-  margin:0.625em;
-  color: white;
-  border-radius: 1em;
+
+	flex:1 1 auto;
+	max-width:100%;
+	background: #0C695D;
+	padding:1.25em;
+	margin:0.625em;
+	color: white;
+	border-radius: 1em;
 }
 
 .button {
-  background-color: #FD5E53;
-  border:none;
-  color:white;
-  padding: 0.625em 0.9375em;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size:1.125em;
+	background-color: #FD5E53;
+	border:none;
+	color:white;
+	padding: 0.625em 0.9375em;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size:1.125em;
 }
 
 /*taken from Erika's P01 Code*/
@@ -90,7 +90,7 @@ h3{
 	float: left;
 	text-decoration: none;
 	text-align:center;
-	padding:  0.3em 5.3em;
+	padding:  0.3em 5.65em;
 	color: white;
 	font-size:1em;
 	padding-top: 0.5em; 
@@ -106,14 +106,14 @@ h3{
 	font-size: 1em;
 	border: none;
 	outline: none;
-	padding: 0.5em 5.0em;
+	padding: 0.5em 6.0em;
 
 	background-color: inherit;
 	color: white;
 	
 }
 .mainnav a:hover, .subnav:hover .sub{
-  background-color:#2D8E87;
+	background-color:#2D8E87;
 
 }
 
@@ -125,7 +125,6 @@ h3{
 
 	background-color: #2D8E87;
 	z-index: 1;
-	
 }
 
 .subnav-content a{
@@ -137,7 +136,7 @@ h3{
 
 .subnav-content a:hover{
 	background-color: #E0F2F2;
-  	color: black;
+	color: black;
 }
 
 
@@ -198,6 +197,28 @@ figure {
 		display: flex;
 		margin-top: 10em;
 	}
+
+	.house {
+		margin-right: 2em;
+	}
+
+	.cart {
+		margin-left: 2em;
+	}
+	.subnav{
+		padding-left: 6.6em;
+		padding-right: 6.6em;
+	}
+}
+
+@media (max-width: 69em){
+	.house {
+		margin-right: 1em;
+	}
+
+	.cart {
+		margin-left: 1em;
+	}
 }
 
 figcaption {
@@ -210,6 +231,10 @@ figcaption {
 	border-radius: 1em;
 }
 
+.grid4 {
+	display: flex;
+}
+
 .sm {
 	width: 8em;
 	height: auto;
@@ -220,7 +245,14 @@ figcaption {
 	color: white;
 }
 
-.house {
-	width: 2em;
+.house, .cart{
+	width: 2.4em;
 	height: auto;
+	background-color: #37AFA9;
+	padding: 0.2em;
+	border-radius: 1em;
+}
+
+.house:hover, .cart:hover {
+	background-color: #2D8E87;
 }
