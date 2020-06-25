@@ -29,10 +29,14 @@ h1 {
 }
 
 h2{
-	margin-top: 2em;
-	font-size: 2.5em;
+	font-size: 3.5em;
 	color: #152329;
 	text-decoration: underline;
+	margin-left: .5em;
+}
+
+#feat {
+	margin-top: 1.5em;
 }
 
 h3{
@@ -41,6 +45,11 @@ h3{
 	margin-left: 1em;
 }
 
+img {
+	width: 12em;
+	height: auto;
+	border-radius: 1em;
+}
 
 .grid{
 	display:flex;
@@ -152,6 +161,7 @@ h3{
 
 #bnnr {
 	width: 100%;
+	border-radius: 0;
 	height: auto;
 	margin-top: 2em;
 	z-index: 0;
