@@ -42,13 +42,16 @@ h2{
 h3{
 	font-size: 1.625em;
 	color:#152329;
-	margin-left: 1em;
 }
 
-img {
+.mrch {
 	width: 12em;
 	height: auto;
 	border-radius: 1em;
+}
+
+.mrch:hover {
+	background-color: rgba(0,0,0, 0.8);
 }
 
 .grid{
@@ -254,6 +257,7 @@ figcaption {
 
 #sm {
 	color: white;
+	margin-left: 1em;
 }
 
 .house, .cart{
