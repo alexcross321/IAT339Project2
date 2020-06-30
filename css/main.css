@@ -46,15 +46,17 @@ ol{
 	list-style-type: upper-roman;
 }
 
+
 .mrch {
-	width: 12em;
-	height: auto;
+	width: auto;
+	height: 15em;
 	border-radius: 1em;
+	opacity: 0.5;
 }
 
 /*referenced and learned transition property and opacity from https://www.w3schools.com/howto/howto_css_image_overlay.asp*/
 .mrch:hover {
-	opacity: 0.3;
+	opacity: 1;
 	transition-duration:.25s
 }
 
