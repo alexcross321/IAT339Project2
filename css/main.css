@@ -234,10 +234,6 @@ figure {
 	.cart {
 		margin-left: 2em;
 	}
-	.subnav{
-		padding-left: 6.6em;
-		padding-right: 6.6em;
-	}
 
 	h1 {
 		font-size: 4em;
@@ -253,6 +249,13 @@ figure {
 		height: auto;
 	}
 
+}
+
+@media (min-width: 85em){
+	.subnav{
+		padding-left: 6.6em;
+		padding-right: 6.6em;
+	}
 }
 
 @media (max-width: 69em){
