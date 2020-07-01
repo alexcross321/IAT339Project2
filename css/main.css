@@ -103,7 +103,9 @@ ol{
 	overflow: hidden;
 
 	background-color: #37AFA9;
-
+	border-radius: 1em;
+	width:100%;
+	height:auto;
 	/*position:fixed;
 	top: 0;
 	right: 0;
@@ -119,6 +121,7 @@ ol{
 	color: white;
 	font-size:1em;
 	padding-top: 0.5em; 
+	border-radius: 1em;
 }
 
 .subnav {
@@ -251,7 +254,7 @@ figure {
 
 }
 
-@media (min-width: 85em){
+@media (min-width: 95em){
 	.subnav{
 		padding-left: 6.6em;
 		padding-right: 6.6em;
