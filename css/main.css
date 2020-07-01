@@ -48,10 +48,11 @@ ol{
 
 
 .mrch {
-	width: auto;
-	height: 15em;
+	max-width: 100%;
+	height:auto;
 	border-radius: 1em;
 	opacity: 0.5;
+	
 }
 
 /*referenced and learned transition property and opacity from https://www.w3schools.com/howto/howto_css_image_overlay.asp*/
@@ -66,21 +67,23 @@ ol{
 	flex-wrap:wrap;
 	margin: 5em;
 	margin-top: 1em;
+
 }
 
 .grid .box{
 
-	flex:1 1 auto;
-	max-width:100%;
+	flex:0 0 auto;
+	max-width:45%;
+	height: 50%;
 	background: #0C695D;
-	padding:1.25em;
+	
 	margin:0.625em;
 	color: white;
 	border-radius: 1em;
 }
 
 .button {
-	background-color: #FD5E53;
+	background-color: #0C695D;
 	border:none;
 	color:white;
 	padding: 0.625em 0.9375em;
@@ -88,6 +91,10 @@ ol{
 	text-decoration: none;
 	display: inline-block;
 	font-size:1.125em;
+}
+.button:hover{
+	background-color:#E0F2F2;
+	color:black;
 }
 
 /*taken from Erika's P01 Code*/
