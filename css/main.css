@@ -225,7 +225,7 @@ figure {
 		margin-top: 10em;
 	}
 
-	.grid5, .grid2, .grid3 {
+	.grid2, .grid3 {
 		display: flex;
 	}
 
@@ -261,7 +261,17 @@ figure {
 	}
 }
 
-@media (max-width: 69em){
+@media (min-width: 50em){
+	.grid5 {
+		display: flex;
+	}
+
+	.grid5-col2of4 {
+		width: 50%;
+	}
+}
+
+@media (max-width: 70em){
 	.house {
 		margin-right: 1em;
 	}
@@ -324,11 +334,15 @@ figcaption {
 }
 
 .itms {
-	margin-left: 2em;
+	margin-left: 0.1em;
 }
 
 .grid5-col1of4-2 {
 	margin: 2em;
+}
+
+.grid5-col1of4 {
+	margin: 0;
 }
 
 .reviewlink {
