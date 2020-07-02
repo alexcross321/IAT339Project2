@@ -55,10 +55,10 @@ ol{
 	
 }
 .gllry {
-	max-width: 100%;
+	max-width: 50%;
 	height:auto;
 	border-radius: 1em;
-	opacity: 0.5;
+	opacity: 1;
 	
 }
 /*referenced and learned transition property and opacity from https://www.w3schools.com/howto/howto_css_image_overlay.asp*/
@@ -68,7 +68,7 @@ ol{
 }
 
 .gllry:hover {
-	opacity: 1;
+	opacity: 0.5;
 	transition-duration:.25s
 }
 
