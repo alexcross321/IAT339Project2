@@ -99,13 +99,14 @@ ol{
 	margin: 5em;
 	margin-top: 1em;
 
+
 }
 
 .grid .box{
 
 	flex:0 0 auto;
 	max-width:45%;
-	max-height: 50%;
+	height: 50%;
 	background: #0C695D;
 	
 	margin:0.625em;
