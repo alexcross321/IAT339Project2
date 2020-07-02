@@ -342,8 +342,8 @@ figcaption {
 }
 
 .sm {
-	width: 8em;
-	height: auto;
+	max-width: auto;
+	max-height: 5em;
 	border-radius: 1em;
 }
 
