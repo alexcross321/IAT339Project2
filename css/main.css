@@ -114,6 +114,27 @@ ol{
 	border-radius: 1em;
 }
 
+.checkoutgrid{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	margin: 5em;
+	margin-top: 1em;
+	background: #0C695D;
+	border-radius:1em;
+}
+
+
+.checkoutgrid .boxitem{
+	flex:0 0 auto;
+	max-width:45%;
+	height: 50%;
+	
+	margin:0.625em;
+	color: white;
+	border-radius: 1em;
+
+}
 .button {
 	background-color: #0C695D;
 	border:none;
