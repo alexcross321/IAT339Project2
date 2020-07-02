@@ -54,11 +54,42 @@ ol{
 	opacity: 1;
 	
 }
-
+.gllry {
+	max-width: 100%;
+	height:auto;
+	border-radius: 1em;
+	opacity: 0.5;
+	
+}
 /*referenced and learned transition property and opacity from https://www.w3schools.com/howto/howto_css_image_overlay.asp*/
 .mrch:hover {
 	opacity: 0.5;
 	transition-duration:.25s
+}
+
+.gllry:hover {
+	opacity: 1;
+	transition-duration:.25s
+}
+
+.gllrygrid{
+	display:flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	margin:5em;
+	margin-top:1em;
+}
+
+.gllrygrid .boxs{
+
+	flex:0 0 auto;
+	max-width:45%;
+	max-height: 20%;
+	
+	
+	margin:0.625em;
+	color: black;
+	border-radius: 1em;
 }
 
 .grid{
@@ -74,7 +105,7 @@ ol{
 
 	flex:0 0 auto;
 	max-width:45%;
-	height: 50%;
+	max-height: 50%;
 	background: #0C695D;
 	
 	margin:0.625em;
