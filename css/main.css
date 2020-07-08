@@ -76,8 +76,9 @@ ol{
 	display:flex;
 	flex-direction: row;
 	flex-wrap:wrap;
-	margin:1em;
+	margin:0 auto;
 	margin-top:1em;
+	max-width:95%;
 }
 
 .gllrygrid .boxs{
@@ -96,10 +97,15 @@ ol{
 	display:flex;
 	flex-direction:row;
 	flex-wrap:wrap;
-	margin: 5em;
+	margin: 0 auto;
 	margin-top: 1em;
+	max-width:95%;
+
+}
 
 
+figure{
+	margin:1rem;
 }
 
 .grid .box{
@@ -159,6 +165,7 @@ ol{
 	border-radius: 1em;
 	width:100%;
 	height:auto;
+
 	/*position:fixed;
 	top: 0;
 	right: 0;
@@ -175,11 +182,13 @@ ol{
 	font-size:1em;
 	padding-top: 0.5em; 
 	border-radius: 1em;
+
 }
 
 .subnav {
 	float: left;
 	overflow: hidden;
+
 }
 
 .subnav .sub {
@@ -191,6 +200,7 @@ ol{
 
 	background-color: inherit;
 	color: white;
+	
 	
 }
 .mainnav a:hover, .subnav:hover .sub{
@@ -206,6 +216,7 @@ ol{
 
 	background-color: #2D8E87;
 	z-index: 1;
+	
 }
 
 .subnav-content a{
@@ -296,13 +307,18 @@ figure {
 	}
 
 	.itm {
-		width: 30em;
+		max-width: 90%;
 		height: auto;
 	}
 
 	.itms {
-		width: 12em;
+		max-width: 80%;
 		height: auto;
+	}
+
+	.grid5{
+		margin-left:1em;
+		margin-top: 1em;
 	}
 
 }
@@ -320,7 +336,10 @@ figure {
 	}
 
 	.grid5-col2of4 {
-		width: 50%;
+		max-width: 30%;
+	}
+	.grid5-col3of4{
+		max-width:70%;
 	}
 }
 
@@ -334,12 +353,12 @@ figure {
 	}
 
 	.itm {
-		width: 15em;
+		max-width: 95%;
 		height: auto;
 	}
 
 	.itms {
-		width: 6em;
+		max-width: 40%;
 		height: auto;
 	}
 
