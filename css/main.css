@@ -343,6 +343,12 @@ figure {
 	}
 }
 
+@media (max-width: 50em){
+	.boxbg{
+		padding: 1em;
+	}
+}
+
 @media (max-width: 70em){
 	.house {
 		margin-right: 1em;
@@ -409,6 +415,10 @@ figcaption {
 	margin-left: 0.1em;
 }
 
+.itms:hover {
+	opacity: 60%;
+}
+
 .grid5-col1of4-2 {
 	margin: 2em;
 }
@@ -419,8 +429,20 @@ figcaption {
 
 .reviewlink {
 	font-size: 0.8em;
+	margin: 0.5em;
 }
 
 .descript {
 	margin: 1em;
+}
+
+.boxbg{
+	background-color: #37AFA9;
+	border-radius: 1em;
+	margin: 1em;
+	margin-right: 2em;
+}
+
+.boxbg p {
+	color: white;
 }
