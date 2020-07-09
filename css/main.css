@@ -289,7 +289,7 @@ figure {
 		margin: 2em;
 	}
 
-	.grid2, .grid3, .grid7{
+	.grid2, .grid3, .grid7, .grid8{
 		display: flex;
 	}
 
@@ -382,7 +382,7 @@ figure {
 	}
 
 	.grid3 {
-
+		margin-left: 5em;
 		margin-right: 5em;
 	}
 
