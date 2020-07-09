@@ -51,21 +51,26 @@
 
 			<div>
 				<label for="fname"> First Name:</label>
-					<input type="text" id="fname" name="fname"> <br>
-					<label for="lname"> Last Name:</label>
-					<input type="text" id="lname" name="lname"> <br>
-					<input type="reset" value="Reset">
-					<input type="submit" value="Submit">
+				<div class="grid">
+					<div class="box">
+						<label for="lname"> First Name:</label>
+						<input type="text" id="fname" name="fname"> <br>
+						<label for="lname"> Last Name:</label>
+						<input type="text" id="lname" name="lname"> <br>
+						<input type="reset" value="Reset">
+						<input type="submit" value="Submit">
+					</div>
+				</div>
 			</div>
 
 			<p>Color Swatches</p>
 			<div class="grid">
-				<div class="box" style="background-color:#08183A; color: white"> Name: Maastricht Blue, Hex: #08183A, RGB: (8, 24, 58), CMYK: 0.862, 0.586, 0, 0.772</div>
-				<div class="box" style="background-color: #152852; color:white">Name: Space Cadet, Hex: #152852, RGB: (21, 40, 82), CMYK: 0.743, 0.512, 0, 0.678</div>
-				<div class="box" style="background-color: #4B3D60; color:white">Name: English Violet, Hex: #4B3D60, RGB: (75, 61, 96), CMYK: 0.218, 0.364, 0, 0.623 </div>
-				<div class="box" style="background-color: #FC9C54">Name: Sandy Brown, Hex: #FC9C54, RGB: (252, 156, 84), CMYK: 0, 0.380, 0.666, 0.011</div>
-				<div class="box" style="background-color: #FFE373">Name: Shandy, Hex: #FFE373, RGB: (255, 227, 115), CMYK: 0, 0.109, 0.549, 0</div>
-				<div class="box" style="background-color: #FD5E53">Name: Sunset Orange, Hex: #FD5E53, RGB: (253, 94, 83), CMYK: 0, 0.628, 0.671, 0.007</div>
+				<div class="exbox" style="background-color:#37AFA9; color: black"> HEX: #37AFA9 </div>
+				<div class="exbox" style="background-color: #2D8E87; color:white"> HEX: #2D8E87 </div>
+				<div class="exbox" style="background-color: #0C695D; color:white"> HEX: #0C695D </div>
+				<div class="exbox" style="background-color: #E0F2F2; color:black"> HEX: #E0F2F2 </div>
+				<div class="exbox" style="background-color: #152329; color: white"> HEX: #152329 </div>
+				
 			</div>
 
 
@@ -104,37 +109,54 @@
 			</div>
 
 			<p>Example of Navigation Module</p>
-			<div class="navbar">
-				<div class="subnav">
-					<button class="subnavbtn"> Merch </button>
-					<div class="subnav-content">
-						<a> Shirts </a>
-						<a> Pants </a>
-						<a> Accessories</a>
+			<div class="grid4">
+				<div class="grid4-1of3">
+					<a href="index.html"><img src="img/home.png" alt="icon of house" class="house"></a>
+				</div>
+				<div class="grid4-1of3">
+					<div class="mainnav">
+						<div class="subnav">
+							<a class="sub" href="merch.html">Merch</a>
+						</div>
+						<div class="subnav">
+							<a class="sub" href="styleguide.html">Style Guide</a>
+
+						</div>
+						<div class="subnav">
+							<a href="about.html">About</a>
+						</div>
 					</div>
 				</div>
-				<div class="subnav">
-					<button class="subnavbtn"> Artwork </button>
-					<div class="subnav-content">
-						<a> Traditional </a>
-						<a> Digital </a>
-						<a> Pins </a>
-					</div>
+				<div class="grid4-1of3">
+					<a href="cart.html"><img src="img/cart.png" alt="icon of cart" class="cart"></a>
 				</div>
+			</div>
 			</div>
 
 			<p>Example of how the grid would be structured here via Flexbox in CSS</p>
 			<div class="grid">
 				<div class="box">
+					<figure>
+					<a href="item1.html"><img src="img/Top1.png" alt="Merchandise image and link, Tops Merchandise, Hot Boi T-Shirt" class="mrch"></a> 
+					<figcaption>Hot Boi T-Shirt</figcaption>
+				</figure>
 				</div>
 				<div class="box">
+					<figure>
+					<a href="item1.html"><img src="img/Top1.png" alt="Merchandise image and link, Tops Merchandise, Hot Boi T-Shirt" class="mrch"></a> 
+					<figcaption>Hot Boi T-Shirt</figcaption>
+				</figure>
 				</div>
 				<div class="box">
+					<figure>
+					<a href="item1.html"><img src="img/Top1.png" alt="Merchandise image and link, Tops Merchandise, Hot Boi T-Shirt" class="mrch"></a> 
+					<figcaption>Hot Boi T-Shirt</figcaption>
+				</figure>
 				</div>
 			</div>
 			<div>
 				<p> Example of Check-out Icon</p>
-				<i class="fa fa-cart-arrow-down" style ="font-size:60px; color:#FD5E53"></i>
+				<img src="img/cart.png" class="cart">
 			</div>
 
 			<div class="grid">
