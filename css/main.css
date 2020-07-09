@@ -460,3 +460,7 @@ figcaption {
 .boxbg p {
 	color: white;
 }
+
+.bttn {
+	float: right;
+}
