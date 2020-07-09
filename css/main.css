@@ -365,14 +365,22 @@ figure {
 	}
 
 	.itms {
-		max-width: 40%;
+		max-width: 80%;
 		height: auto;
 	}
 
 	.grid5 {
 		margin-left: 1em;
+		margin-top: 1em;
 	}
 
+}
+
+@media (max-width: 50em){
+	.itms{
+		max-width: 45%;
+		height:auto;
+	}
 }
 
 figcaption {
@@ -393,6 +401,11 @@ figcaption {
 	max-width: auto;
 	max-height: 5em;
 	border-radius: 1em;
+}
+
+#about{
+	max-width: 50%;
+	height: auto;
 }
 
 #sm {
