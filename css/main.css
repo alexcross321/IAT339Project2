@@ -2,14 +2,7 @@
 	box-sizing: border-box;
 }
 
-/*
-Colors:
-#37AFA9
-#2D8E87
-#0C695D
-#E0F2F2
-#152329;
-*/
+
 
 body{
 	font-family: Arial, Helvetica, sans-serif;
@@ -127,6 +120,15 @@ figure{
 	margin:0 auto;
 	margin-top: 1em;
 	color: white;
+	border-radius: 1em;
+}
+
+.grid .exbox{
+	max-width: 6em;
+	max-height: 6em;
+	flex:0 0 auto;
+
+
 	border-radius: 1em;
 }
 
