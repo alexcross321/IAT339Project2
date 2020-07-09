@@ -33,6 +33,15 @@ h2{
 	margin-left: .5em;
 }
 
+a{
+	font-style: italic;
+	text-decoration: underline;
+}
+
+a:hover{
+	color:pink;
+}
+
 #feat {
 	margin-top: 1.5em;
 }
@@ -194,10 +203,10 @@ figure{
 
 .subnav .sub {
 	font-family: inherit;
-	font-size: 1em;
+	font-size: .9em;
 	border: none;
 	outline: none;
-	padding: 0.5em 6.0em;
+	/*padding: 0.5em 6.0em;*/
 
 	background-color: inherit;
 	color: white;
