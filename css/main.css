@@ -286,10 +286,6 @@ figure {
 		margin: 2em;
 	}
 
-	.grid3{
-		margin-top: 10em;
-	}
-
 	.grid2, .grid3 {
 		display: flex;
 	}
@@ -388,9 +384,11 @@ figcaption {
 	font-style: italic;
 }
 
-.grid3{
+#orderform {
 	background-color: #2D8E87;
 	border-radius: 1em;
+	padding: 2em;
+	margin-bottom: 2em;
 }
 
 .grid4 {
