@@ -318,6 +318,15 @@ figure {
 		margin-top: 1em;
 	}
 
+	#address, #inquiry {
+		width: 86em;
+	}
+
+	#bttns {
+		margin-left: 73em;
+	}
+
+
 }
 
 @media (min-width: 95em){
@@ -338,12 +347,39 @@ figure {
 	.grid5-col3of4{
 		max-width:70%;
 	}
+
+	.bttn {
+		float: right;
+	}
+
+	#fname {
+		width: 40em;
+		margin-right: 2em;
+	}
+
+	#email {
+		width: 40em;
+	}
 }
 
 @media (max-width: 50em){
 	.boxbg{
 		padding: 1em;
 	}
+
+	.itms{
+		max-width: 45%;
+		height:auto;
+	}
+
+	#req {
+		margin-top: 1em;
+	}
+
+	#email {
+		margin-left: 1.8em;
+	}
+
 }
 
 @media (max-width: 70em){
@@ -370,13 +406,6 @@ figure {
 		margin-top: 1em;
 	}
 
-}
-
-@media (max-width: 50em){
-	.itms{
-		max-width: 45%;
-		height:auto;
-	}
 }
 
 figcaption {
@@ -459,6 +488,20 @@ figcaption {
 	color: white;
 }
 
-.bttn {
-	float: right;
+#fname, #email, #address {
+	margin-bottom: 1em;
+	border-radius: 0.5em;
+}
+
+#address {
+	margin-left: 0.8em;
+}
+
+#inquiry {
+	margin-left: 1.6em;
+	border-radius: 0.5em;
+}
+
+label {
+	color: white;
 }
