@@ -175,12 +175,6 @@ figure{
 	border-radius: 1em;
 	width:100%;
 	height:auto;
-
-	/*position:fixed;
-	top: 0;
-	right: 0;
-	left: 0;*/
-	
 }
 
 .mainnav a {
@@ -277,6 +271,7 @@ figure{
 	border-right: 0;
 	border-left: 0;
 	border-color: #37AFA9;
+	margin-top: 3em;
 }
 
 figure {
@@ -346,7 +341,7 @@ figure {
 }
 
 @media (min-width: 50em){
-	.grid5 {
+	.grid5, .grid6 {
 		display: flex;
 	}
 
@@ -369,6 +364,14 @@ figure {
 	#email {
 		width: 40em;
 	}
+
+	.prdct {
+		width: 20em;
+	}
+
+	.txt {
+		margin-left: 2em;
+	}
 }
 
 @media (max-width: 50em){
@@ -387,6 +390,10 @@ figure {
 
 	#email {
 		margin-left: 1.8em;
+	}
+
+	.prdct {
+		width: 100%
 	}
 
 }
@@ -512,5 +519,27 @@ figcaption {
 }
 
 label {
+	color: white;
+}
+
+.prdct {
+	border-radius: 1em;
+}
+
+.grid6 {
+	background-color: #37AFA9;
+	margin: 1em;
+	border-radius: 1em;
+	padding: 1em;
+}
+
+.user {
+	font-size: 0.8em;
+}
+
+h4 {
+	font-size: 1.5em;
+	margin-top: 0;
+	margin-bottom: 0;
 	color: white;
 }
